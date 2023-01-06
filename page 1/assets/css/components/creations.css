@@ -1,0 +1,84 @@
+
+.img-classic{
+    align-items: center;
+    height: 300px
+}
+.img-fresque{
+    align-items: center;
+    height: 300px
+}
+.section-dessin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.section-dessin-digital{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 4%;
+
+}
+
+
+.img-croquis{
+    width: 400px;
+}
+
+.img-digital{
+    width: 600px;
+}
+
+.contenu-croquis{
+    justify-content: center;
+}
+
+@media only screen and (max-width: 670px) {
+
+    .img-digital{
+        width: 400px;
+    
+    }
+    .img-fresque{
+        align-items: center;
+
+        height: 220px;
+    }
+
+    .section-dessin{
+
+        margin-left: 0px;
+    }
+
+    .section-dessin-digital{
+        margin-left: 0px;
+    
+    }
+    
+    }
+
+    @media only screen and (max-width: 400px) {
+
+        .section-dessin{
+
+            margin-left: 0px;
+        }
+        .img-croquis{
+            width: 300px;
+        }
+        .img-fresque{
+            height: 180px
+        }
+
+        .img-digital{
+            width: 300px;
+        
+        }
+    
+    }

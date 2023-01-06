@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    top: 0px;
+    height: 60px;
+    
+}
+.jourNav{
+    background-color: rgb(235, 197, 187) !important;
+}
+.nuitNav{
+    background-color: rgb(50, 34, 29) !important;
+    color: rgb(167, 121, 107) !important;
+  
+}
+
+
+/*.bg-backgroundcolor{
+    background-color: rgb(235, 197, 187) !important;
+}*/
+
+.liens-pages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bloc-avatar{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    align-items: center;
+   
+}

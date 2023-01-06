@@ -1,0 +1,147 @@
+.card-grid{
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+    justify-content: center ;
+    
+}
+.card-footer-txt{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.card-footer-img{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.card-liens{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/*---------------------*/
+
+.card-grid-photos{
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+    justify-content: center ;
+    
+}
+
+.card-photos-img{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 490px;
+    height: auto;
+
+  
+}
+
+
+.téléphone-portrait{
+    object-fit: cover;
+    width: auto;
+    height: 700px;
+}
+
+
+
+/*------------*/
+.art-grid{
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+    align-items: center;
+    justify-content: center ;
+}
+/*.image-card{
+    height: 100px;
+    width: 40%;
+    object-fit: cover;
+}*/
+
+
+@media only screen and (max-width: 1300px) {
+
+    .card-photos-img{
+        width: 300px;
+    
+    }
+    .téléphone-portrait{
+
+        height: 500px;
+    }
+
+        
+}
+
+@media only screen and (max-width: 670px) {
+    .card-grid{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .art-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-grid-photos{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-photos-img{
+        width: 450px;
+    
+        
+    }
+    .téléphone-portrait{
+
+        height: 600px;
+    }
+        
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .card-photos-img{
+        width: 250px;
+    
+    }
+
+    .card-liens{
+
+        flex-direction: column;
+        
+    }
+
+    .téléphone-portrait{
+        object-fit: cover;
+        width: 300px;
+    }
+    
+}

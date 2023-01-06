@@ -1,0 +1,40 @@
+.btn-down{
+    background-color: rgb(210, 157, 143)!important ;
+    border-radius: 0px;
+    border: none;
+    padding: 10px 20px;
+    color: rgb(83, 55, 55) !important;
+    cursor: pointer;
+    height: fit-content;
+    margin-right: 10px;
+    transition: background-color 0.5s !important;
+    
+}
+.btn-down:hover{
+
+    background-color: rgb(149, 90, 76)!important;
+}
+
+.btn-down a{
+    text-decoration: none;
+    color: rgb(83, 55, 55) !important;
+}
+
+.button-début-jour{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-début-nuit{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 55, 55) !important ;
+    color:  rgb(210, 157, 143)!important;
+}

@@ -1,0 +1,31 @@
+.footer{
+    margin-block-start: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(235, 197, 187);
+    height: fit-content;
+    bottom: 0;
+
+  
+}
+
+@media only screen and (max-width: 670px) {
+
+    .footer{
+        margin-block-start: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: rgb(235, 197, 187);
+        height: fit-content;
+        bottom: 0;
+    
+      
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    
+}

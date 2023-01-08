@@ -1,4 +1,66 @@
 
+
+/*essaie 2 --------------------*/
+
+.slides{
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+.slide2{
+ 
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    display: none;
+
+}
+
+.slide2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  
+
+  
+.containercarousel{
+    position: relative;
+    width: 500px;
+    height: 500px;
+
+
+    
+}
+.prev1,
+.next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev1:hover,
+.next1:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/*--------*/
 .img-carousel{
     object-fit: contain;
     height: 500px;
@@ -22,5 +84,80 @@
     justify-content: center;
     align-items: center;
 }
+.article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
+@media only screen and (max-width: 1300px) {
+    
+    
+.slides{
+    width: 400px;
+    height: 400px;
+}
+.slide2{
+ 
+    width: 400px;
+    height: 400px;
+
+}
+
+.slide2 img {
+    width: 100%;
+    height: 100%;
+  }
+.containercarousel{
+
+    width: 400px;
+    height: 400px;
+ 
+}
+}
+
+
+@media only screen and (max-width: 460px) {
+    
+    
+    .slides{
+        width: 300px;
+        height: 300px;
+    }
+    .slide2{
+     
+        width: 300px;
+        height: 300px;
+    
+    }
+
+    .containercarousel{
+    
+        width: 300px;
+        height: 300px;
+     
+    }
+    }
+    @media only screen and (max-width: 320px) {
+    
+    
+        .slides{
+            width: 200px;
+            height: 200px;
+        }
+        .slide2{
+         
+            width: 200px;
+            height: 200px;
+        
+        }
+    
+        .containercarousel{
+        
+            width: 200px;
+            height: 200px;
+         
+        }
+        }

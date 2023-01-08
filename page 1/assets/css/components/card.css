@@ -92,7 +92,11 @@
 
         height: 500px;
     }
-
+    .art-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
         
 }
 
@@ -103,11 +107,7 @@
         padding-bottom: 30px;
     }
 
-    .art-grid{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+
 
     .card-grid-photos{
         display: flex;
